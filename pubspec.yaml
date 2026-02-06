@@ -1,0 +1,50 @@
+name: cie_renewal_app
+description: Applicazione per la gestione del rinnovo della Carta d'Identità Elettronica
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #nfc_manager: ^3.5.0
+  
+  # UI
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # Date/Time
+  intl: ^0.18.1
+  table_calendar: ^3.0.9
+  
+  # Image
+  image_picker: ^1.0.7
+  image: ^4.1.7
+  
+  # Notifications
+  flutter_local_notifications: ^16.3.2
+  
+  # UUID
+  uuid: ^4.3.3
+  
+  mobile_scanner: ^5.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
